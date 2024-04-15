@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Build status 
-![Build + test](https://github.com/github/docs/actions/workflows/build.yaml/badge.svg)
+![Build + test](https://github.com/mmutiso/faculty-upskilling-demo/actions/workflows/build.yaml/badge.svg)
 
 ## Expanding the ESLint configuration
 
