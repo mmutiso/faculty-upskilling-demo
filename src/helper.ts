@@ -1,3 +1,3 @@
 export default function counter(val: number): number {
-    return val + 2;
+    return val + 1;
 }
