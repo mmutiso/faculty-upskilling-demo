@@ -7,3 +7,5 @@ test('Test - given a value increment by 1', () => {
   expect(counter(2)).toBe(3)
   expect(counter(3)).toBe(4)
 })
+
+
