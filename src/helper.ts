@@ -3,9 +3,11 @@ export default function counter(val: number): number {
 }
 
 //write a function to generate the fibonacci series
-export function fibonacci(n: number): number {
-    if (n <= 1) {
-        return n;
+export function fibonacci(n: number): number[] {
+    // eslint-disable-next-line prefer-const
+    let fib = [0, 1];
+    for (let i = 2; i < n; i++) {
+        fib.push(fib[i - 1] + fib[i - 2]);
     }
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    return fib;
 }
