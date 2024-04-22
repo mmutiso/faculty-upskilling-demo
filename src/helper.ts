@@ -1,5 +1,5 @@
 export default function counter(val: number): number {
-    return val + 1;
+    return val + 2;
 }
 
 //write a function to generate the fibonacci series
