@@ -31,6 +31,7 @@ function App() {
       </p>
       <p className="read-the-docs">
         ADC Faculty up-skilling program
+        Av modified this Gikaru
       </p>
     </>
   )
